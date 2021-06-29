@@ -2,10 +2,10 @@ import React from 'react';
 import tw from 'twin.macro';
 import styled from 'styled-components';
 import './App.css';
-import { HomePage } from './app/containers/HomePage'; 
+import { HomePage } from "./app/containers/HomePage";
+  
 
-
- const AppContainer = styled.div`
+ const AppContainer = styled.div` 
  ${tw`
  w-full
  h-full
@@ -15,10 +15,10 @@ import { HomePage } from './app/containers/HomePage';
  `;
 
 function App() {
-  return 
-  <AppContainer>
+  return <AppContainer>
     <HomePage />
   </AppContainer>
+
 }
 
 export default App;
