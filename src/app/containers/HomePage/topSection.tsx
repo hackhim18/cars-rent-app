@@ -158,10 +158,10 @@ export function TopSection() {
       </LeftContainer>
       <RightContainer>
         <BlobContainer>
-          <img src={BlobImg} />
+           
         </BlobContainer>
         <StandaloneCar>
-          <img src={MclarenCarImg} />
+          <img src={"https://cdn.autoportal.com/img/new-cars-gallery/honda/amaze/colors/2688f0228dbbe61378ed721d41e90d96.jpg"} />
         </StandaloneCar>
       </RightContainer>
     </TopSectionContainer>
