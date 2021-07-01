@@ -2,7 +2,10 @@ import React from "react";
 import styled from "styled-components";
 import tw from "twin.macro";
 
+
+//import Honda from "../../../assets/images/eco.png";
 import MclarenCarImg from "../../../assets/images/mclaren-orange-big.png";
+
 import BlobImg from "../../../assets/images/blob.svg";
 import { SCREENS } from "../../components/responsive";
 import { Button } from "../../components/button"; 
@@ -161,7 +164,7 @@ export function TopSection() {
            
         </BlobContainer>
         <StandaloneCar>
-          <img src={"https://cdn.autoportal.com/img/new-cars-gallery/honda/amaze/colors/2688f0228dbbe61378ed721d41e90d96.jpg"} />
+        <img src={MclarenCarImg} />
         </StandaloneCar>
       </RightContainer>
     </TopSectionContainer>
