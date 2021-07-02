@@ -147,7 +147,7 @@ const ButtonsContainer = styled.div`
 export function TopSection() {
   return (
     <TopSectionContainer>
-      <LeftContainer>
+    <LeftContainer>
         <Slogan>Rent The Best Qulity Car's With Us</Slogan>
         <Description>
           Always choose the best car from our local stores or order it remotely
