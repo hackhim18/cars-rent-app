@@ -44,7 +44,9 @@ const CarsContainer = styled.div`
 export function TopCars() {
     return <TopCarsContainer>
       <Title> Explore our other cars</Title> 
-      <CarsContainer></CarsContainer>  
+      <CarsContainer>
+          
+          </CarsContainer>  
     </TopCarsContainer>
 }
 
