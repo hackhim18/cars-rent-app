@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components';
 import tw from 'twin.macro';
 import { ICar } from '../../../typings/car';
+import { Button } from "../button";
 
 interface ICarProps extends ICar{
 
@@ -120,17 +121,31 @@ const Seperator = styled.div`
   `};
 `;
 
+
 const RentButton = styled(Button)`
-  ${tw`
-    min-w-full
-    mt-5
-  `};
+${tw`
+min-w-full
+mt-5
+`}
 `;
 
  
 
 
-export function Car() {
-    
+export function Car(props: ICarProps) {
+    const {
+        name,thumbnailSrc,dailyPrice,monthlyPrice,mileage,gearType,gas,
+      } = props;
+ 
+      return <CarContainer>
+       <CarThumbnail>
+
+
+
+       </CarThumbnail>
+
+      </CarContainer>
+
+
 }
  

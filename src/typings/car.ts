@@ -4,6 +4,6 @@ name :string;
 mileage:string;
 gearType: string;
 dailyPrice:string;
-monthPrice:string;
+monthlyPrice:string;
 gas:string;
 }
